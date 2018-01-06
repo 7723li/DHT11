@@ -9,8 +9,8 @@ gpio.setwarnings(False)
 time.sleep(1)
 data=[]
 
-gpio.setup(12,gpio.OUT)
-gpio.setup(16,gpio.OUT)
+gpio.setup(12,gpio.OUT) #DHT11
+gpio.setup(16,gpio.OUT) #LED
 	
 gpio.output(12,gpio.LOW)
 time.sleep(0.02)
